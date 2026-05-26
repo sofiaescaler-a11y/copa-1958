@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /* POPPINS */
+@font-face { /* PROMETO */
+    font-family: 'Prometo';
+    src: url('../fonts/Prometo_Trial_XBd.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial;
+    text-decoration: none;
+}
+
+.fundo {
+    position: fixed;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)),
+        url("../img/Brasil\ 1958.jpg");
+
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.container {
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+}
+
+.titulo h2 {
+    font-size: 18px;
+    margin-top: -10px;
+    color: white;
+}
+
+.topo {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    align-items: flex-start;
+}
+
+.onde h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.onde img {
+    width: 362px;
+    height: 241px;
+    border-radius: 12px;
+}
+
+.onde p {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 10px;
+    color: white;
+}
+
+.onde h4 {
+
+    font-size: 64px;
+    margin: 30px;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    color: transparent;
+    position: relative;
+    bottom: 70px;
+    right: -100px;
+ 
+}
+/* .protagonistas {
+    flex: 1;
+} */
+.protagonistas{
+    position: relative;
+    right: -100px;
+}
+.protagonistas h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+     color: white;
+    
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    width: 181px;
+    height: 241px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+.baixo {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 50px;
+}
+
+.jogo {
+    width: 480px;
+}
+
+.jogo h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.partida {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.partida img {
+    width: 145px;
+    height: 103px;
+    border-radius: 10px;
+}
+
+.partida span {
+    font-size: 35px;
+    font-weight: bold;
+     color: white;
+}
+
+.placar {
+    display: flex;
+    gap: 80px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.placar p{
+    color: white;
+}
+.placar h4 {
+    font-size: 32px;
+     color: white;
+     position: relative;
+     right: -60px;
+}
+
+.descricao {
+    margin-top: 15px;
+    color: white;
+    margin: 25px;
+}
+
+
+.curiosidades h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+     color: white;
+}
+
+.curiosidade-conteudo {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.curiosidade-conteudo img {
+    width: 412px;
+    height: 290px;
+    border-radius: 12px;
+}
+
+.texto-curiosidades {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    
+}
+
+.texto-curiosidades p {
+    line-height: 24px;
+    font-size: 23px;
+    color: white;
+    width: 400px;
+}
