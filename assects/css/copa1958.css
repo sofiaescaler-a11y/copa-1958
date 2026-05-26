@@ -35,7 +35,7 @@
 }
 
 .titulo h1 {
-    font-size: 70px;
+    font-size: 96px;
     font-weight: 900;
     color: white;
 }
@@ -211,4 +211,55 @@
     font-size: 23px;
     color: white;
     width: 400px;
+}
+/* Responsivo para celular */
+
+@media (max-width: 770px) {
+    body {
+        background-color: lightgray; /* muda o fundo no celular */
+        font-size: 16px; /* diminui a letra no celular */
+        align-items: center;
+    }
+    
+    .onde{
+        position: relative;
+        right: -300px;
+    }
+    .protagonistas{
+        position: relative;
+        top: 400px;
+        right: 200px;
+    }
+    .protagonistas h3{
+        text-align: center;
+    }
+
+    .jogo{
+        position: relative;
+        top: 400px;
+        right: -300px;
+    }
+
+    .curiosidades{
+        position: relative;
+        top: 900px;
+        right: 100px;
+    }
+    .curiosidades h3{
+        position: relative;
+        right: -50px;
+    }
+    .texto-curiosidades{
+        position: relative;
+        top: 300px;
+        right: 400px;
+        
+    }
+    .rodape{
+        height: 30px;
+        background-color: transparent;
+        width: 400px;
+        position: relative;
+        top: 1000px;
+    }
 }
